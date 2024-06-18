@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+
+.img{
+    width: 200px;
+}
+
+.headline{
+    font-family: "Azeret Mono", monospace;
+    margin: 0;
+    font-size: 24px;
+}
+
+.navLink{
+    text-decoration: none;
+    font-family: "Azeret Mono", monospace;
+    color: #CA2020;
+    font-size: 20px;
+}
+
+.arrowIcon{
+    transform: rotate(45deg);
+    width: 25px;
+    height: 25px;
+    margin-bottom: -7px;
+}
+
+@media screen and (max-width: 750px) {
+    
+    .img{
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navLink, .headline{
+        text-align: center;
+    }
+
+
+}
