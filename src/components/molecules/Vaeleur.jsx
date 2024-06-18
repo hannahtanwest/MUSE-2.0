@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Vaeleur.module.css'
 import Image from 'next/image'
-import phoneMock from 'public/vaeleur-phone-mock.webp'
+// import phoneMock from 'public/vaeleur-phone-mock.webp'
 import Link from 'next/link'
 import poster from 'public/væleur-collage.jpg'
 
@@ -46,7 +46,7 @@ export default function Vaeleur() {
 
         <div className={styles.displayTwo}>
             <div>
-                <Image src={phoneMock} className={styles.phMock} width={550} alt="Morild SoMe Mockup"></Image>
+                <Image src="/vaeleur-phone-mock.webp" className={styles.phMock} width={550} height={550} alt="Morild SoMe Mockup"></Image>
             </div>
             <div className={styles.igText}>
                 <h1 className={styles.infoHeadline}>SEE IT FOR YOURSELF!</h1>
