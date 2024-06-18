@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Vaeleur.module.css'
 import Image from 'next/image'
-import phoneMock from 'public/vaeleur-phone-mock.png'
+import phoneMock from 'public/vaeleur-phone-mock.webp'
 import Link from 'next/link'
 import poster from 'public/væleur-collage.jpg'
 
